@@ -16,13 +16,13 @@
   --bg-tint:      #111215;
   --bg-hover:     #16181c;
   
-  /* Primary Antique Gold Accent */
-  --accent:       #d4b28c;
-  --accent-rgb:   212, 178, 140;
-  --accent-light: rgba(212, 178, 140, 0.05);
+  /* Primary Grey Accent */
+  --accent:       #9f9fa6;
+  --accent-rgb:   159, 159, 166;
+  --accent-light: rgba(159, 159, 166, 0.05);
   
-  /* Semantic Terracotta for highlights */
-  --terracotta:   #c87a53;
+  /* Semantic Grey for highlights */
+  --terracotta:   #888888;
   
   /* Typography Colors */
   --fg:           #e4e4e7;      /* Soft zinc cream white */
@@ -32,7 +32,7 @@
   /* Precision Editorial Borders */
   --border:       rgba(228, 228, 231, 0.05);
   --border-light: rgba(228, 228, 231, 0.02);
-  --border-hover: rgba(212, 178, 140, 0.25);
+  --border-hover: rgba(159, 159, 166, 0.25);
   
   /* Typography paired for ultimate legibility */
   --sans: 'Space Grotesk', system-ui, -apple-system, sans-serif;
@@ -469,12 +469,7 @@ a {
 
 .ledger-list li span.tech-strong::after {
   content: '';
-  display: inline-block;
-  width: 3px; height: 3px;
-  background: var(--accent);
-  border-radius: 50%;
-  margin-left: 5px;
-  vertical-align: middle;
+  display: none;
 }
 
 /* ── Module 04: Credentials Table ────────────────────────── */
