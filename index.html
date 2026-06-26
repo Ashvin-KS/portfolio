@@ -43,7 +43,7 @@
     <div class="container">
       
       <div class="hero-label" data-reveal>
-        <span class="label-mono">VIT Chennai Sophomore</span>
+          <span class="label-mono">VIT Chennai</span>
         <span class="hero-dot"></span>
         <span class="label-mono">B.Tech Computer Science</span>
       </div>
@@ -55,14 +55,13 @@
       <div class="hero-narrative" data-reveal>
         <div class="narrative-main">
           <p>
-            I work across TypeScript, Python, Rust, and Dart to turn ideas into usable software. My current focus is local-first desktop apps, AI-assisted workflows, course-planning utilities, and small ML experiments that are easy to understand, run, and improve.
+            I work across TypeScript, Python, Rust, and Java to turn ideas into usable software. My focus is AI-assisted workflows, local-first desktop apps, and machine learning experiments that are clean to run, easy to read, and simple to improve.
           </p>
         </div>
       </div>
 
       <div class="hero-links" data-reveal>
         <a href="https://github.com/Ashvin-KS" target="_blank" class="text-link">GitHub Profile ↗</a>
-        <a href="https://linkedin.com/in/ashvinks" target="_blank" class="text-link">LinkedIn Connection ↗</a>
         <a href="mailto:ashvinksg@gmail.com" class="text-link">ashvinksg@gmail.com ↗</a>
       </div>
 
@@ -93,12 +92,12 @@
 
         <article class="timeline-row" data-reveal>
           <div class="time-header">
-          <span class="time-date">2026 — Present</span>
-          <h3 class="time-org">AOSSIE PictoPy</h3>
-            <span class="time-role">GSSoC Contributor / Open Source Learner</span>
+          <span class="time-date">2026</span>
+          <h3 class="time-org">GirlScript Summer of Code (GSSoC 2026)</h3>
+            <span class="time-role">Open Source Contributor</span>
           </div>
           <div class="time-body">
-            <p>Studying the PictoPy codebase and contributing to open-source workflows around image organization, object detection, and face-clustering as part of the GirlScript Summer of Code 2026 program.</p>
+            <p>28 merged PRs across 14 open-source repositories — config standards, CI workflows, Docker environments, and contributor tooling.</p>
           </div>
         </article>
 
@@ -109,7 +108,7 @@
             <span class="time-role">B.Tech in Computer Science</span>
           </div>
           <div class="time-body">
-            <p>Undergraduate coursework in computer science, software engineering, algorithms, and systems fundamentals. Current CGPA: 9.38 / 10.00.</p>
+            <p>Undergraduate coursework in computer science, software engineering, algorithms, and systems fundamentals. Current CGPA: 9.26 / 10.00. Relevant Coursework: Data Structures &amp; Algorithms, Operating Systems, Computer Networks, Design &amp; Analysis of Algorithms, Computer Architecture.</p>
           </div>
         </article>
 
@@ -129,16 +128,16 @@
 
       <div class="catalog-index">
         
-        <!-- DSC -->
+        <!-- Atheletia -->
         <article class="catalog-row" data-reveal>
           <div class="row-header">
             <span class="row-num">01</span>
-            <h3 class="row-title">DSC</h3>
-            <span class="row-category">Rust · Tauri · NVIDIA NIM</span>
+            <h3 class="row-title">Atheletia</h3>
+            <span class="row-category">TypeScript · Tauri · NVIDIA NIM</span>
           </div>
           <div class="row-content">
             <p class="row-desc">
-              A local-first desktop productivity prototype built with Tauri, React, and Rust. It explores AI chat, notes, schedules, activity tracking, and filesystem-aware workflows inside one desktop shell.
+              A local-first desktop productivity hub in Tauri + React + Rust that unifies AI chat, a notes vault with local retrieval (RAG), activity tracking, calendar, and music into one app. Runs a Rust IPC layer for filesystem access and SQLite storage — all data stays on-device.
             </p>
             <div class="row-meta">
               <span class="tech-stack-label">Original Repository · 1 Fork</span>
@@ -147,20 +146,20 @@
           </div>
         </article>
 
-        <!-- Musicplayer -->
+        <!-- DuckGraph -->
         <article class="catalog-row" data-reveal>
           <div class="row-header">
             <span class="row-num">02</span>
-            <h3 class="row-title">Musicplayer</h3>
-            <span class="row-category">React · Flask · Python</span>
+            <h3 class="row-title">DuckGraph</h3>
+            <span class="row-category">TypeScript · tree-sitter · SQLite</span>
           </div>
           <div class="row-content">
             <p class="row-desc">
-              A full-stack web application that streams music directly from YouTube API sources. Built with a Flask backend and React frontend, supporting search queries, playlist creation, and a custom playbar player.
+              A VS Code extension that uses tree-sitter to parse source files and builds a SQLite-backed dependency graph for cross-file navigation and symbol-level queries. Ships an Express daemon plus an MCP server for AI coding agents to query the graph directly instead of grepping files.
             </p>
             <div class="row-meta">
               <span class="tech-stack-label">Original Repository</span>
-              <a href="https://github.com/Ashvin-KS/Musicplayer" target="_blank" class="row-link">Codebase ↗</a>
+              <a href="https://github.com/Ashvin-KS/vse" target="_blank" class="row-link">Codebase ↗</a>
             </div>
           </div>
         </article>
@@ -170,11 +169,11 @@
           <div class="row-header">
             <span class="row-num">03</span>
             <h3 class="row-title">Amorvin Chess AI</h3>
-            <span class="row-category">Python · Algorithms</span>
+            <span class="row-category">Python · PyTorch</span>
           </div>
           <div class="row-content">
             <p class="row-desc">
-              A chess AI project implementing minimax search, alpha-beta pruning, and board evaluation heuristics. Built as a practical algorithms exercise in Python.
+              A chess AI built with PyTorch, featuring a CNN with 12 residual blocks (AlphaZero-style). Trained on Lichess PGN data via supervised learning, then fine-tuned with self-play reinforcement learning using MCTS with UCB1 and Dirichlet noise.
             </p>
             <div class="row-meta">
               <span class="tech-stack-label">Original Repository</span>
@@ -254,36 +253,40 @@
       <div class="skills-ledger">
         
         <div class="ledger-block" data-reveal>
-          <h3 class="ledger-title">Core Languages</h3>
+          <h3 class="ledger-title">Languages</h3>
           <ul class="ledger-list">
-            <li><span class="tech-strong">Rust</span> — Native desktop threads, Tauri integrations</li>
-            <li><span class="tech-strong">TypeScript</span> — Clean web systems, Node backend APIs</li>
-            <li><span class="tech-strong">Python</span> — NLP workflows, machine learning models</li>
-            <li><span>C Language</span> — Coursework, pointers, and systems fundamentals</li>
-            <li><span>Dart</span> — Hybrid mobile layouts, course scheduler components</li>
-            <li><span>Shell Scripting</span> — Local automation and workflow setup</li>
+            <li><span class="tech-strong">TypeScript</span> — Web apps, Node backends, VS Code extensions</li>
+            <li><span class="tech-strong">Python</span> — ML pipelines, scripting, backend APIs</li>
+            <li><span class="tech-strong">Rust</span> — Tauri backends, IPC, systems programming</li>
+            <li><span>JavaScript</span> — React, browser APIs, frontend logic</li>
+            <li><span>Java</span> — Object-oriented programming, data structures</li>
+            <li><span>SQL</span> — Queries, schema design, relational databases</li>
+            <li><span>C</span> — Systems fundamentals, memory management</li>
+            <li><span>Shell/Bash</span> — Automation, CI/CD scripting</li>
           </ul>
         </div>
 
         <div class="ledger-block" data-reveal>
-          <h3 class="ledger-title">AI &amp; Parallel Compute</h3>
+          <h3 class="ledger-title">Frameworks &amp; Tools</h3>
           <ul class="ledger-list">
-            <li><span class="tech-strong">CUDA Python</span> — Parallel programming fundamentals</li>
-            <li><span class="tech-strong">NVIDIA NIM</span> — Embeddings endpoints, microservices integration</li>
-            <li><span>PyTorch</span> — Tensor algorithms, modeling foundations</li>
-            <li><span>NLP Models</span> — TF-IDF corpus matrices, regression validations</li>
-            <li><span>scikit-learn</span> — Supervised ML classification routines</li>
+            <li><span class="tech-strong">React / Next.js</span> — Frontend UIs, server components, SSR</li>
+            <li><span class="tech-strong">Tauri</span> — Desktop shells, Rust IPC, local-first apps</li>
+            <li><span>Node.js / FastAPI / Flask</span> — Backend APIs and services</li>
+            <li><span>MySQL / MongoDB</span> — Relational and document databases</li>
+            <li><span>PyTorch</span> — Neural networks, deep learning training</li>
+            <li><span>NVIDIA NIM / HuggingFace</span> — AI model inference and deployment</li>
+            <li><span>CUDA Python</span> — GPU-accelerated computing</li>
           </ul>
         </div>
 
         <div class="ledger-block" data-reveal>
-          <h3 class="ledger-title">Platforms &amp; Tooling</h3>
+          <h3 class="ledger-title">DevOps &amp; Cloud</h3>
           <ul class="ledger-list">
-            <li><span class="tech-strong">Tauri Framework</span> — Local filesystem managers, async Rust IPC</li>
-            <li><span>Docker</span> — Contained environment pipelines</li>
-            <li><span>GitHub Actions</span> — Workflow automations and testing</li>
-            <li><span>PostgreSQL &amp; Redis</span> — Database and caching fundamentals</li>
-            <li><span>Vercel / Render</span> — Modern edge cloud hosting</li>
+            <li><span class="tech-strong">Docker</span> — Containerization, multi-service setups</li>
+            <li><span>GitHub Actions</span> — CI/CD pipelines, automated workflows</li>
+            <li><span>AWS</span> — EC2, S3, IAM, Lambda (studying for SAA)</li>
+            <li><span>Google Cloud</span> — Compute Engine, Cloud Storage, IAM</li>
+            <li><span>Vercel</span> — Frontend deployment and hosting</li>
           </ul>
         </div>
 
@@ -343,15 +346,6 @@
           <span class="cert-level">Verify Credential</span>
         </div>
 
-
-        <div class="cert-item">
-          <div class="cert-meta">
-            <a class="cert-title" href="https://badges.parchment.com/public/assertions/kvMPTAfHTDmzAoSNblvaSA?utm_source=url_copy&identity__email=ashvinksg%40gmail.com" target="_blank" rel="noopener noreferrer">API Fundamentals Student Expert</a>
-            <span class="cert-school">Postman</span>
-          </div>
-          <span class="cert-level">Verify Credential</span>
-        </div>
-
       </div>
     </div>
   </section>
@@ -378,7 +372,6 @@
 
         <div class="contact-links">
           <a href="https://github.com/Ashvin-KS" target="_blank" class="btn-flat">GitHub Profile ↗</a>
-          <a href="https://linkedin.com/in/ashvinks" target="_blank" class="btn-flat">LinkedIn Connection ↗</a>
           <a href="../resume/index.html" target="_blank" class="btn-flat">Academic Resume ↗</a>
         </div>
       </div>
@@ -393,7 +386,6 @@
         <span class="mono text-muted">ASHVIN K S // © 2026</span>
         <div class="footer-links">
           <a href="https://github.com/Ashvin-KS" target="_blank">GitHub</a>
-          <a href="https://linkedin.com/in/ashvinks" target="_blank">LinkedIn</a>
         </div>
       </div>
     </div>
